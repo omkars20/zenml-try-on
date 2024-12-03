@@ -1,0 +1,41 @@
+# Ignore Python bytecode and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and output files
+*.log
+*.out
+*.err
+
+# Ignore data files
+data/
+*.csv
+
+# Ignore saved models and checkpoints
+saved_model/
+*.h5
+*.ckpt
+*.joblib
+*.pkl
+
+# Ignore ZenML cache and temporary files
+.cache/
+.pipelines/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore dependency tracking
+*.lock
+
